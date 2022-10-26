@@ -17,6 +17,11 @@ const routes = [
     name: "foot",
     component: () => import("@/views/FootView.vue"),
   },
+  {
+    path: "/foot/:id",
+    name: "footDetail",
+    component: () => import("@/views/FootDetail.vue"),
+  },
 ];
 
 const router = createRouter({
